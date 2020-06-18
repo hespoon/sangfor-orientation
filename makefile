@@ -12,6 +12,7 @@ clean:
 	rm -rf demo_web
 	rm -f demo
 	rm -f test
+	rm -f nothing
 
 test: def
 	./test --fork
