@@ -1,0 +1,9 @@
+demo_web/
+*.o 
+*.gcda 
+*.gcno 
+*.gcov 
+demo.info
+*.yml
+demo
+test

@@ -1,0 +1,42 @@
+{
+    "basic": {
+        "enable": true,
+        "ip": "200.200.3.61",
+        "port": 389,
+        "timeout": 10,
+        "basedn": "aaa",
+        "fd": -1,
+        "maxcnt": 133333333333,
+        "dns": [
+            "200.200.0.1",
+            "200.0.0.254"
+        ]
+    },
+    "advance": {
+        "dns": [
+            {
+                "name": "huanan",
+                "ip": "200.200.0.1"
+            },
+            {
+                "name": "huabei",
+                "ip": "200.0.0.254"
+            },
+            [
+                "he",
+                "bo",
+                {
+                    "name": "tao"
+                }
+            ]
+        ],
+        "portpool": [
+            130,
+            131,
+            132
+        ],
+        "url": "http://200.200.0.4/main",
+        "path": "/etc/sinfors",
+        "value": 3.14
+    }
+}
